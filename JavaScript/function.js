@@ -1,7 +1,15 @@
+//function invoked
 
-show()
+
+
+//Function return
+
 function show(){
-    console.log("i am a function")
+    return "hasan";
 }
+let x = show()
+console.log(x)
+
 
 //behind the seen javascript jevabe kaj kore.. se code gulo 2 bar kore.. prothom bar se 
+

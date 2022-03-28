@@ -22,8 +22,9 @@ var laptop = {
     processor: "intel core i5", 
     ram: "8gb",
     ssd: "240gb"
+   
+    }
 }
-console.log(laptop.model,laptop.ram)
 
 //type of operator
 
