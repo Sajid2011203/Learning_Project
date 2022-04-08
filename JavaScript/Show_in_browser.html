@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show in browder</title>
+    <!-- <script src="test.js"></script> -->
+</head>
+<body>
+   <!-- <p id="first">This is first paragraph</p> -->
+   <h1 id="fun">Hello Friend!</h1>
+   <button onclick="fun()">Go to Next</button>
+   
+   <p id ='demo'>This is a paragraph</p>
+   <button onclick="showLoop()">Show Loop</button>
+
+   <button onclick="loop()">LOOP</button>
+
+<script>
+   function fun() {
+    let fun1 = document.getElementById('fun')
+    let text = ['How are you', 'Today is sunny', 'Welcome to ramadan']
+    let color = ['green', 'red', 'blue']
+    let font = ['50px', '60px', '40px']
+    let number = Math.floor(Math.random() * 3)
+    fun1.innerHTML= text[number]
+    fun1.style.color= color[number]
+    fun1.style.fontSize = font[number]
+   }
+   
+//    function showLoop() {
+
+//     let ShowLoop = ['Apple', 'Banana', 'Orange', 'Mango']
+//     for(x = 0; x < ShowLoop.length; x++) {
+//     document.getElementById('demo').innerHTML = ShowLoop + '<br />'
+//     }
+//    }
+let way1 = ['Apple', 'Banana', 'Orange', 'Mango']
+let a = document.getElementById('demo')
+let b = ""
+function showLoop() {
+    for (let i = 0; i < way1.length; i++) {
+        b += way1[i] + '<br>'
+    }
+    a.innerHTML = b
+}
+</script>
+</body>
+</html>

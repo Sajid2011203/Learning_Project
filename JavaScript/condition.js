@@ -13,9 +13,9 @@ var a = 50
 
 var b = 50
 
-if (a>b){
+if (a > b){
     console.log("a is greater ten b")
-}else if (a==b){
+}else if (a == b){
     console.log("a is equal to b")
 } else {
     console.log(" b is less ten a")

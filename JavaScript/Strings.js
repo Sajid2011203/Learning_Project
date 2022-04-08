@@ -18,3 +18,9 @@ console.log(text)
 //Breaking Long Code Lines
 
 //JavaScript Strings as Objects
+let x = "Rahim"
+let y = "karim"
+
+console.log(x==y)
+
+//slice string
