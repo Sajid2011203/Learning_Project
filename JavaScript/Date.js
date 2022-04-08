@@ -2,21 +2,23 @@
 //1
 var a = new Date();
 
-console.log(a)
-console.log(a.toDateString())
-console.log(a.toLocaleDateString())
-console.log(a.toTimeString())
+// console.log(a)
+// console.log(a.toDateString())
+// console.log(a.toLocaleDateString())
+// console.log(a.toTimeString())
 
-console.log(a.getDate())
-console.log(a.getMonth())
-console.log(a.getFullYear())
+// console.log(a.getDate())
+// console.log(a.getMonth())
+// console.log(a.getFullYear())
 
-console.log(a.getHours())
-console.log(a.getMinutes())
-console.log(a.getSeconds())
-console.log(a.getMilliseconds())
+// console.log(a.getHours())
+// console.log(a.getMinutes())
+// console.log(a.getSeconds())
+// console.log(a.getMilliseconds())
 
-var b = new Date()
-console.log(a.setDate())
-console.log(b.setFullYear(2020))
-console.log(a.setHours())
+// var b = new Date()
+// console.log(a.setDate())
+// console.log(b.setFullYear(2020))
+// console.log(a.setHours())
+
+console.log(new Date())
