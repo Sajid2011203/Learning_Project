@@ -1,5 +1,23 @@
 
-i should know about this
-1/ chenge text one by one
-2/ math object
-3/ set in date
+
+1.....
+const days_Name = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+let days = days_Name [new Date().getDay()]
+console.log(days)
+
+eta kivabe kaj korche?
+
+2.....
+//set FullYaear()
+console.log(new Date().setFullYear("2020")) // output millisecond 
+
+const set = new Date();
+set.setFullYear(2020);
+console.log(set) //ekhane time asteche keno?
+
+const d = new Date();
+d.setFullYear(2055);
+document.getElementById("demo").innerHTML = d;
+</script>
+ekhane millisecond asteche na keno?
+
