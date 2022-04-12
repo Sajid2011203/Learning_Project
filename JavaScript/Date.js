@@ -113,3 +113,18 @@ year = mili.setFullYear(2050)
     
 
     console.log(mili)
+
+
+///////////basic////////////////////////
+console.log('****basic****')
+
+var date = new Date()
+console.log(date)
+console.log(date.toLocaleString())
+console.log(date.toTimeString())
+console.log(date.toDateString())
+console.log(date.getFullYear())
+console.log(date.getDate())
+console.log(date.getMonth())
+console.log(date.getDay())
+console.log(new Date(date.setDate('5')).toLocaleString())

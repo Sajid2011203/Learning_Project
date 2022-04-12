@@ -5,10 +5,10 @@
 // }
 
 
-function loop() {
-    let i = [11,242,434,3534,24,2424,24,42,]
-    for(x of i) {
-        console.log(x)
-    }
-}
+// function loop() {
+//     let i = [11,242,434,3534,24,2424,24,42,]
+//     for(x of i) {
+//         console.log(x)v
+//     }
+// }
 

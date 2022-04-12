@@ -41,13 +41,58 @@ console.log(y)
 //Converting Numbers to Strings
 //The global method String() can convert numbers to strings.
 
-let str = 200
+let str = 245
 
-let str2 = 200
+console.log(String(str))
+console.log(String(245))
+console.log(String(200+45))
 
-let total = String(str) + String(str2)
+//The Number method toString() & More does the same.
 
-console.log(total)
+var d = 345
 
-//The Number method toString() does the same.
+console.log(d.toString())//way 1
+console.log((345).toString())//way 2
+console.log((300+45).toString())//way3\
+
+//Converting Date to number
+
+var date = new Date()
+
+console.log(Number(date))
+
+var getTime_num = new Date()
+getTime_num.getTime()
+console.log(Number(getTime_num))
+
+
+//converting date to string
+
+var str_date = new Date() 
+
+console.log(String(str_date))
+
+var get_time_method = new Date()
+get_time_method.getTime()
+
+console.log(String(get_time_method))
+
+//Converting boolean to number
+
+var true_To_Number = true
+var false_To_Number = false
+
+console.log(Number(true_To_Number))
+console.log(Number(false_To_Number))
+
+//boolean to string
+
+var true_To_String = true
+var false_To_String = false
+
+console.log(String(true_To_String))
+console.log(String(false_To_String))
+
+console.log((true_To_String).toString())
+console.log((false_To_String).toString())
 
