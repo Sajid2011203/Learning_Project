@@ -3,7 +3,7 @@ var a = 34
 
 var b = 33
 
-if (a>b){
+if (a > b){
     console.log("a is greater ten b")
 } else{
     console.log(" b is less ten a")
