@@ -9,11 +9,12 @@ console.log(500 / 30)
 
 var a = 500
 var b = 30
-// console.log(++a)//pre increment
-console.log(a++)//Post increment
-console.log(a)
+console.log(++a)//pre increment
 
-// console.log(--b)//Pre Decrement
+console.log(a++)//Post increment
+
+
+console.log(--b)//Pre Decrement
 console.log(b--)//Post Decrement
 console.log(b)
 
@@ -25,6 +26,8 @@ var c = 25;
 
 c += 20;
 console.log(c)
+
+console.log(++c)
 
 c -= 20;
 console.log(c)
@@ -63,4 +66,22 @@ console.log('**Logical Operators**')
 // &&
 // ||
 // !
+
+var s = (15 + 6) * 3 
+
+console.log(s)
+
+let asg = 50
+let asg1 = 51
+asg += asg1
+console.log(asg)
+
+//comprison operators
+
+console.log('****comprison Operator***')
+
+console.log(23 == 24)//false
+console.log(23 == 23)//true
+console.log(23 == "23")//true
+console.log(23 === "23")//false
 

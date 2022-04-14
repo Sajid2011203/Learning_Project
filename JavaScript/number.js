@@ -29,3 +29,11 @@ console.log("")
 
 
 console.log(isNaN(xx))
+
+///**Number Method**///
+console.log("***Number Method***")
+var number = 342.242
+console.log(number.toString())
+console.log(number.toExponential(2))
+console.log(number.toFixed(2))// returns a string, with the number written with a specified number of decimals
+console.log(number.toPrecision(4))//returns a string, with a number written with a specified length

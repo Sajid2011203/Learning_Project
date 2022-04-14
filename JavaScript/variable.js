@@ -26,3 +26,12 @@ x = 505
 
 
 console.log(x)
+
+var firstName = 'Nayeem', 
+lastName = 'Ahmad', 
+age = 15
+
+var firstName 
+lastName 
+age 
+console.log(firstName, lastName, age)
