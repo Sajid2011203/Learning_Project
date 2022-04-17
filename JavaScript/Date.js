@@ -128,3 +128,10 @@ console.log(date.getDate())
 console.log(date.getMonth())
 console.log(date.getDay())
 console.log(new Date(date.setDate('5')).toLocaleString())
+
+//set FullYaear()
+console.log(new Date().setFullYear("2020")) // output millisecond 
+
+const set = new Date();
+set.setFullYear(2020);
+console.log(set) //ekhane time asteche keno?

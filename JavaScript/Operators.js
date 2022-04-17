@@ -80,8 +80,54 @@ console.log(asg)
 
 console.log('****comprison Operator***')
 
-console.log(23 == 24)//false
-console.log(23 == 23)//true
-console.log(23 == "23")//true
-console.log(23 === "23")//false
+var x = 25
 
+console.log(x == 25)//true
+console.log(x == 2 )//false
+
+console.log(x === '25')//false
+console.log(x === 25)//true
+
+console.log(!(x == 25)) //false
+console.log(!(x == 2)) //true
+
+console.log(!(x === '25'))//true
+console.log(!(x === 25))//false
+
+console.log(x < 25)//false
+console.log(x < 2)//false
+
+console.log(x <= 25)//true
+console.log(x <= 2)//false
+
+
+console.log(!(x < 25))//true
+
+//Logical Operator
+console.log('*****Logical Operator*****')
+
+var x = 20
+
+var y = 30
+
+console.log( x > y && y > x)//false
+console.log( x < y && y > x)//true
+
+console.log( x > y || y > x)//true
+console.log( x < y || y > x)//true
+
+//turnary operator
+var age = 18
+var s =  age <= 18 ?'Cild': 'Adult'
+console.log(s)
+
+
+var result = age % 2 == 0 ? 'EVEN' : 'ODD'
+
+console.log(result)
+
+var name = 'true'
+
+var fullname = name || 'Nayeem'
+
+console.log(fullname)
