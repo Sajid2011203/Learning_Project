@@ -13,3 +13,5 @@ for (var t = 1; t <= s; t++){
     console.log(result)
 }
 eta valo vabe bujhini
+
+
