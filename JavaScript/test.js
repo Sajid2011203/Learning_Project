@@ -4,7 +4,6 @@
 //     console.log(x[all])
 // }
 
-
 // function loop() {
 //     let i = [11,242,434,3534,24,2424,24,42,]
 //     for(x of i) {
@@ -12,16 +11,23 @@
 //     }
 // }
 
-
-const days_Name = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-let days = days_Name [new Date().getDay()]
+const days_Name = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+]
+let days = days_Name[new Date().getDay()]
 console.log(days)
 
 //set FullYaear()
-console.log(new Date().setFullYear("2020")) // output millisecond 
+console.log(new Date().setFullYear("2020")) // output millisecond
 
-const set = new Date();
+const set = new Date()
 set.setFullYear("2020")
-console.log(set) 
+console.log(set)
 
 //ekhane time asteche keno?
